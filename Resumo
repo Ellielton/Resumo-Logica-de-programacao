@@ -18,6 +18,8 @@ alert(""); instrução javascript que exibir um pop up com informção na tela d
 
 document.write("");
 
+Math.round(); Arredonda o resultado da operação.
+
                              resumo capitulo 1- Converse com seu navegador:
 
 Não é necessário um ambiente complexo para começar a programar, podemos iniciar usando apenas um editor de texto e o chorme já existentes em nosso pc.
@@ -34,3 +36,9 @@ o patametro é uma informaçao que uma instrução precisa para executar sua fun
 
 O javascript executa os operadores matemático: +, -, *, /. As operações matemáticas também respeitam os simbolos das espressão aritimentica. O documente.write usa o sinal de + para concatenar ou juntar informações.
 Outro detalhe é que uma string é sempre entre aspas, mas se um numero estiver com ou sem aspas o javainterpreta eles sempre como um numero.
+
+                                    Capítulo 3
+
+Declarando uma variável não precisamos mudas nosso codigo em varios lugares, e quando formos chamarmos essa mesma variável em outros lugares não precisamo da palavra reservada, apenas o nome dessa variável.
+Ao nomear uma var a primeira letra e sempre minúscula e se for uma palavras composta a primeira letra da segunda palavras e maiúscula o chama-se de camelcase.
+As variáveis guardam numero mas também nomes.
