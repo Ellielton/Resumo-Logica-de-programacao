@@ -1,4 +1,6 @@
-                    AULA 1
+                                   CAPÍTULO 1
+
+tag do html:
 
 <h1></h1> = tag de marcação de título vai de h1 ao h6.
 
@@ -8,11 +10,27 @@
 
 <script></script> = marcaçaõ da linguagem javascript no mundo hmtl.
 
-<meta charset="UTF-8"> Carrega o conjuto de caractéres na pagina corrigindo erros de acentuação.
+<meta charset="UTF-8"> É um atributo e carrega o conjuto de caractéres na pagina corrigindo erros de acentuação.
+
+tag do javascript:
 
 alert(""); instrução javascript que exibir um pop up com informção na tela do usuário.
 
-resumo capitulo 1- Converse com seu navegador:
+document.write("");
+
+                             resumo capitulo 1- Converse com seu navegador:
 
 Não é necessário um ambiente complexo para começar a programar, podemos iniciar usando apenas um editor de texto e o chorme já existentes em nosso pc.
-O html é uma liguagem de marcação estática por isso entra o javascript fazendo a interação dinamica com o usuário. 
+O html é uma liguagem de marcação estática por isso entra o javascript fazendo a interação dinamica com o usuário.
+
+document.write(""); É uma forma de, do mundo javascript escrever no mundo html para poder repetir de acordo com a interação.
+                                    CAPÍTULO 2
+
+
+Convenção e um forma de fazer algo que todos ultilizão, mas que não é uma regra, ex.: as tag do html podem ser escritas com letras maiúsculas que funcionam mas por Convenção é usada as letras minúsculas. Diferentemente do mundo javascript em que obrigatoriamente as letras das palavras reservadas devem ser minúsculas.
+
+Será usado daqui endiante um padrao para os próximos codigos que a tag meta e a script.
+o patametro é uma informaçao que uma instrução precisa para executar sua função.
+
+O javascript executa os operadores matemático: +, -, *, /. As operações matemáticas também respeitam os simbolos das espressão aritimentica. O documente.write usa o sinal de + para concatenar ou juntar informações.
+Outro detalhe é que uma string é sempre entre aspas, mas se um numero estiver com ou sem aspas o javainterpreta eles sempre como um numero.
