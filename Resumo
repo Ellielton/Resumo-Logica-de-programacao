@@ -1,0 +1,18 @@
+                    AULA 1
+
+<h1></h1> = tag de marcação de título vai de h1 ao h6.
+
+<br> = tag de quebra de linha.
+
+<a href=""></a> = tag ancora usada para levar o usuário para outra lugar na mesma ou em outra página.
+
+<script></script> = marcaçaõ da linguagem javascript no mundo hmtl.
+
+<meta charset="UTF-8"> Carrega o conjuto de caractéres na pagina corrigindo erros de acentuação.
+
+alert(""); instrução javascript que exibir um pop up com informção na tela do usuário.
+
+resumo capitulo 1- Converse com seu navegador:
+
+Não é necessário um ambiente complexo para começar a programar, podemos iniciar usando apenas um editor de texto e o chorme já existentes em nosso pc.
+O html é uma liguagem de marcação estática por isso entra o javascript fazendo a interação dinamica com o usuário. 
