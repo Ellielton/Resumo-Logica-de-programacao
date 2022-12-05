@@ -1,0 +1,28 @@
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    function mostra(frase) {   // O parametro da função pode ser qualquer palavra e recebe a informação que é passado para a função.
+        document.write(frase); // aqui a palavra frase executa o que está dentro do parentese da função mostra
+        pulaLinha();
+    }
+
+    function calculaImc(altura, peso) {
+        return peso/(altura * altura);
+        
+    }
+
+    var nome = prompt("Informe seu nome");
+    var alturaIformada = prompt(nome + ", informe sua altura");
+    var alturaPeso = prompt(nome + ", informe seu peso");
+
+    var imc = calculaImc(alturaIformada, alturaPeso);
+    
+    mostra(nome + ", o seu imc é " + imc);
+
+
+</script>

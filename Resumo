@@ -47,3 +47,11 @@ As variáveis guardam numero mas também nomes.
 
 Podemos criar nossas próprias funções e os nome das funções deve ser claro e ser sempre um verbo pois a função indaca uma ação, ela são guardadas mas só são executadas quando forem chamadas em algum lugar do código.
 Funções podem receber parametros para exucutar ações detro de seu bloco de execução, e ainda podemos usa-las para chamar outra função.
+
+                                   Capítulo 5
+
+Criando uma função que recebe 2 paramentros e com isso eu evito de repetir a formula do imc toda fez que quizer calcula-lo pra apenas chamar a função criada, passando os dois paramentros: peso e altura.
+
+O retorno da função processa um calaculo e joga o resulatado desse calculo pra chama da propria função que foi atribuida a uma variável reservada anteriomente.
+Ficar atento na hora de exibir as informaçõe por que o mostra tem que ficar fora do bloco da função.
+Para melhorar a interação com o usuário usamos o propmt fazendo a aplicaçao ficar generica e acessível.
