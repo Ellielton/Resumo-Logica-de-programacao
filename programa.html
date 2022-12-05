@@ -1,29 +1,25 @@
 <meta charset="UTF-8">
 
 <script>
-<<<<<<< HEAD
+    function pulaLinha() {
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    function mostra(frase) {   // O parametro da função pode ser qualquer palavra e recebe a informação que é passado para a função.
+        document.write(frase); // aqui a palavra frase executa o que está dentro do parentese da função mostra
+        pulaLinha();
+    }
+
     var ano = 2016;
-    document.write("A idade de Flávio tem " + (ano - 1977) + "<br>");
-    document.write("A idade de Joaquim tem " + (ano - 1996) + "<br>");
+    
+    mostra("A idade de Flávio tem " + (ano - 1977));
+
+    mostra("A idade de Joaquim tem " + (ano - 1996));
     
     ano = 2017
-    document.write("A idade de Barney tem " + (ano - 1976) + "<br>");
+    mostra("A idade de Barney tem " + (ano - 1976));
+
+    mostra("ola pessoal!")
     
-    var idadeFlávio = 39 
-    var idadeJoaquim = 20
-    var idadeBarney = 41
-
-    var media = (idadeFlávio + idadeJoaquim + idadeBarney)/3;
-
-    document.write("A média das indades é " + Math.round(media));
-
-    var nome = "Flávio";
-    document.write("<br>");
-    document.write("A idade de " + nome + " é " + idadeFlávio);
 </script>
-=======
-    document.write("A idade de Flávio é " + (2016 - 39) + "<br>");
-    document.write("A idade de Joaquim é " + (2016 - 20) + "<br>");
-    document.write("A idade de Barney é " + (2016 - 40) + "<br>");    
-</script>
->>>>>>> e06d31fba834e39bc9aa21177fe4ae851242dd76

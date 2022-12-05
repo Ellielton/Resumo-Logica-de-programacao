@@ -42,3 +42,8 @@ Outro detalhe é que uma string é sempre entre aspas, mas se um numero estiver 
 Declarando uma variável não precisamos mudas nosso codigo em varios lugares, e quando formos chamarmos essa mesma variável em outros lugares não precisamo da palavra reservada, apenas o nome dessa variável.
 Ao nomear uma var a primeira letra e sempre minúscula e se for uma palavras composta a primeira letra da segunda palavras e maiúscula o chama-se de camelcase.
 As variáveis guardam numero mas também nomes.
+
+                                   Capítulo 4
+
+Podemos criar nossas próprias funções e os nome das funções deve ser claro e ser sempre um verbo pois a função indaca uma ação, ela são guardadas mas só são executadas quando forem chamadas em algum lugar do código.
+Funções podem receber parametros para exucutar ações detro de seu bloco de execução, e ainda podemos usa-las para chamar outra função.
